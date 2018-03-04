@@ -1,5 +1,5 @@
 FROM maikg/centos6-cdt
-RUN yum -y install sudo gtk2-engines openssh-server
+RUN yum -y install sudo gtk2-engines openssh-server man man-pages firefox boost-devel hicolor-icon-theme nuvola-icon-theme
 
 RUN rm -f /tmp/*tar.gz
 
