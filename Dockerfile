@@ -3,7 +3,7 @@ RUN yum -y install sudo gtk2-engines openssh-server man man-pages firefox boost-
 
 RUN rm -f /tmp/*tar.gz
 
-RUN wget http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/technology/epp/downloads/release/oxygen/2/eclipse-cpp-oxygen-2-linux-gtk-x86_64.tar.gz -O /tmp/eclipse.tar.gz && \
+RUN wget http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/technology/epp/downloads/release/oxygen/3a/eclipse-cpp-oxygen-3a-linux-gtk-x86_64.tar.gz -O /tmp/eclipse.tar.gz && \
 	echo 'Installing eclipse' && \
     tar -xf /tmp/eclipse.tar.gz -C /opt && \
     rm -f /tmp/eclipse.tar.gz
